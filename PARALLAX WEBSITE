@@ -1,0 +1,97 @@
+PARALLAX WEBSITE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Website</title>
+  <style>
+    html,body{
+      margin: 0;
+      font-size: 16px;
+      font-weight: 400;
+      height: 100%;
+      font-family: "lato",sans-serif;
+      line-height: 1.8em;
+      color: #666;
+    }
+    .image1{
+      background-image: url(https://assets.weforum.org/article/image/0ZUBmNNVLRCfn3NdU55nQ00UF64m2ObtcDS0grx02fA.jpg);
+      min-height: 100%;
+    }
+    .image2{
+      background-image: url(https://images.pexels.com/photos/36478/amazing-beautiful-beauty-blue.jpg?cs=srgb&dl=pexels-pixabay-36478.jpg&fm=jpg);
+
+      min-height: 400px;
+    }
+    .image3{
+      background-image: url(https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?cs=srgb&dl=pexels-pixabay-158063.jpg&fm=jpg);
+      min-height: 400px;
+    }
+    .image1, .image2, .image3{
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      background-attachment: fixed;
+    }
+    .text{
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: black;
+      font-size: 27px;
+      letter-spacing: 8px;
+      text-transform:uppercase ;
+    }
+    .img1bg{
+      padding: 20px;
+      background: #2b2727;
+      color: white;
+    }
+    .secone, .sectwo, .secthree{
+      padding: 20px;
+      text-align: center;
+      
+    }
+
+  </style>
+</head>
+<body>
+  <section class="image1">
+    <div class="text">
+      <span class="img1bg">Parallax Website</span>
+     
+    </div>
+  </section>
+  <section class="secone">
+    <h2>Section One</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam exercitationem doloremque blanditiis! Ducimus impedit at obcaecati recusandae eius dolorum quas incidunt voluptates? Minima, sint aut? Voluptates ex hic recusandae esse aspernatur id, libero corrupti voluptatum molestiae explicabo, blanditiis sit vero ullam sunt eveniet, architecto laboriosam voluptate itaque voluptatibus laborum ipsa distinctio? Architecto voluptate iste asperiores repellendus corporis, facilis doloribus, sed, facere nostrum ut porro ipsum hic delectus eligendi quod sequi quasi temporibus cum cupiditate aut rem quam impedit cumque accusantium? Dolore dolor qui quis libero rem neque omnis doloremque reprehenderit cum nam fuga laudantium consequuntur deserunt, animi labore necessitatibus.</p>
+
+  </section>
+  <section class="image2">
+    <div class="text">
+      <span class="img1bg">Parallax Website</span>
+     
+    </div>
+  </section>
+  <section class="sectwo">
+    <h2>Section two</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam exercitationem doloremque blanditiis! Ducimus impedit at obcaecati recusandae eius dolorum quas incidunt voluptates? Minima, sint aut? Voluptates ex hic recusandae esse aspernatur id, libero corrupti voluptatum molestiae explicabo, blanditiis sit vero ullam sunt eveniet, architecto laboriosam voluptate itaque voluptatibus laborum ipsa distinctio? Architecto voluptate iste asperiores repellendus corporis, facilis doloribus, sed, facere nostrum ut porro ipsum hic delectus eligendi quod sequi quasi temporibus cum cupiditate aut rem quam impedit cumque accusantium? Dolore dolor qui quis libero rem neque omnis doloremque reprehenderit cum nam fuga laudantium consequuntur deserunt, animi labore necessitatibus.</p>
+
+  </section>
+  <section class="image3">
+    <div class="text">
+      <span class="img1bg">Parallax Website</span>
+     
+    </div>
+  </section>
+  <section class="secthree">
+    <h2>Section Three</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam exercitationem doloremque blanditiis! Ducimus impedit at obcaecati recusandae eius dolorum quas incidunt voluptates? Minima, sint aut? Voluptates ex hic recusandae esse aspernatur id, libero corrupti voluptatum molestiae explicabo, blanditiis sit vero ullam sunt eveniet, architecto laboriosam voluptate itaque voluptatibus laborum ipsa distinctio? Architecto voluptate iste asperiores repellendus corporis, facilis doloribus, sed, facere nostrum ut porro ipsum hic delectus eligendi quod sequi quasi temporibus cum cupiditate aut rem quam impedit cumque accusantium? Dolore dolor qui quis libero rem neque omnis doloremque reprehenderit cum nam fuga laudantium consequuntur deserunt, animi labore necessitatibus.</p>
+
+  </section>
+</body>
+</html>
