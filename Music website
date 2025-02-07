@@ -1,0 +1,245 @@
+<!--MUSIC WEBSITE-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/a0378f6029.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="lnav">
+            <ul>myTunea</ul>
+        </div>
+        <div class="rnav">
+            <div>Overview</div>
+            <div>Music</div>
+            <div>Video</div>
+            <div>Gift cards</div>
+        </div>
+    </div>
+    <div class="mainpage">
+        <div class="con1">
+            <p id="head">myTunes</p>
+        </div>
+        <div class="con2">
+           <p id="sub"> Your music and TV Shows take center stage</p>
+        </div>
+        <div class="con3">
+            <p id="about"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, cum! inventore culpa quod doloremque nisi, accusantium unde aliquam libero ut necessitatibus ea atque eum! Dolorem, pariatur?</p>
+        </div>
+    </div>
+    <div class="subpage">
+        <div class="sub1">
+              <i class="fa-solid fa-music"></i>
+              <h1>Music</h1>
+        </div>
+        <div class="sub2">
+            <h3>45Million songs. Zero ads</h3>
+        </div>
+        <div class="sub3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem provident magni odio atque accusantium, reprehenderit, magnam aspernatur, corrupti aliquid quis incidunt! Fugiat ut voluptatum doloribus? Ab, eos mollitia laboriosam, aliquam, eligendi a recusandae exercitationem molestias dolore nulla totam autem cumque eveniet labore unde distinctio quas placeat vero repellendus nesciunt dolorem.</div>
+        <div class="sub4">
+            <p>Start your trial now</p>
+        </div>
+        <div class="sub5">
+            <p>myTunes is now available on playstore and ios</p>
+        </div>
+        <div class="sub6">
+            <img id="gallery" src="https://m.media-amazon.com/images/I/81NhWq-vv8L.jpg">
+        </div>
+    </div>
+    <div class="giftcard">
+        <div class="card">
+            <img src="https://gonuts.in/cdn/shop/files/GiftCard-Mockup_650x.jpg?v=1706080318%201x,//gonuts.in/cdn/shop/files/GiftCard-Mockup_650x@2x.jpg?v=1706080318%202x">
+        </div>
+        <div class="aboutcard">
+            <h2 class="gap">Gift Card</h2>
+            <p class="gap">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore explicabo cum a tempora harum voluptate deleniti mollitia quos sapiente rem!</p>
+            <p class="gap">Already have a Gift Card <i class="fa-solid fa-question"></i></p>
+            <hr>
+            <p id="redeem" clas="redeem">Redeem</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            <h2 class="heading">Shop <i class="fa-brands fa-d-and-d"></i> Learn</h2>
+            <hr>
+            <br>
+            <ul>Music</ul>
+            <ul>Movies</ul>
+            <ul>Shows</ul>
+            <ul>Apps</ul>
+            <ul>GiftCards</ul>
+        </div>
+        <div class="footer2">
+            <h2 class="heading">Orange Store </h2>
+            <hr>
+            <br>
+            <ul>Find a Store</ul>
+            <ul>Today at orange</ul>
+            <ul>Orange camp</ul>
+            <ul>Financing</ul>
+            <ul>Order Status</ul>
+        </div>
+        <div class="footer3">
+            <h2 class="heading">Education <i class="fa-brands fa-d-and-d"></i> Business </h2>
+            <hr>
+            <br>
+            <ul>Orange <i class="fa-brands fa-d-and-d"></i> Business </ul>
+            <ul>Shop for collage</ul>
+            <ul>Orange <i class="fa-brands fa-d-and-d"></i> Business</ul>
+            <ul>Shops for business</ul>
+            <ul>Jobs </ul>
+        </div>
+        <div class="footer4">
+            <h2 class="heading">About Orange</h2>
+            <hr>
+            <br>
+            <ul>Newsletter</ul>
+            <ul>Investors</ul>
+            <ul>Events</ul>
+            <ul>Contact</ul>
+            <ul>Orange Leadrship</ul>
+        </div>
+    </div>
+    <footer>
+        <p>copyright <i class="fa-solid fa-copyright"></i> by kabeer</p>
+    </footer>
+
+</body>
+</html>
+
+<!--CSS-->
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(31, 34, 31);
+    padding: 20px;
+    font-weight: 700;
+    color: white;
+}
+.rnav {
+    display: flex;
+}
+.rnav div{
+    margin: 0px 10px;
+}
+.mainpage{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/049/935/155/small/a-black-vinyl-record-lying-on-a-wooden-floor-with-a-bookshelf-full-of-books-in-the-background-photo.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+#head{
+    font-size: 4.5em;
+    margin-top: -100px;
+}
+#sub {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+#about{
+    width: 900px;
+    font-size: 1.2em;
+}
+.subpage{
+    background-color:  rgb(31, 34, 31);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.subpage .sub1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: baseline;
+}
+.sub1 i{
+    margin-top: 8px;
+    margin-right: 5px;
+    font-size: 25px;
+}
+.subpage .sub2{
+    margin-top: 20px;
+}
+.subpage .sub3{
+    width: 900px;
+    margin-top: 20px;
+}
+.subpage .sub4{
+   background-color: rgb(255, 115, 0);
+   padding: 5px;
+   margin-top:20px;
+}
+.subpage .sub5{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.subpage .sub6{
+   position: relative;
+   top: 200px;
+   margin-top: -200px;
+}
+.sub6 img{
+    height: 500px;
+}
+.giftcard {
+    display: flex;
+    margin: 140px 40px;
+}
+.giftcard .aboutcard{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.gap{
+    margin: 20px 0px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+#redeem{
+    background-color:  rgb(31, 34, 31);
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+    width: 70px; 
+}
+.footer{
+    background-color: rgb(31, 34, 31);
+    display: flex;
+    margin-top: 70px;
+    color: white;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding: 10px 0;
+}
+footer{
+    background-color:rgb(0, 0, 0) ;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: white;
+    padding: 10px;
+}
